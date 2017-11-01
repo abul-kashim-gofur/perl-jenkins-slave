@@ -16,7 +16,7 @@ ENV SLAVE_DESCRIPTION="Core Jenkins Slave"
 
 # Adding Perl dependencies
 RUN yum install -y perl-Data-Dumper \
-	perl-devel \
+	perl-devel
 
 # Adding perm module Log4Perl
 RUN curl -fsSL http://search.cpan.org/CPAN/authors/id/M/MS/MSCHILLI/Log-Log4perl-1.49.tar.gz > Log-Log4perl-1.49.tar.gz &&\
